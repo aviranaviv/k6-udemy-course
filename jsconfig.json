@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "es6",
+    "allowJs": true,
+    "checkJs": false,
+    "types": [
+      "k6"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

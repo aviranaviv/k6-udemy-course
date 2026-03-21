@@ -1,0 +1,22 @@
+{
+  "name": "k6-udemy-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "type-of-tests/first-script.js",
+  "dependencies": {
+    "@types/k6": "^1.6.0",
+    "k6": "^0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://aviranaviv@github.com/aviranaviv/k6-udemy-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aviranaviv/k6-udemy-course/issues"
+  },
+  "homepage": "https://github.com/aviranaviv/k6-udemy-course#readme"
+}
