@@ -2,7 +2,7 @@
   "name": "k6-udemy-course",
   "version": "1.0.0",
   "description": "",
-  "main": "type-of-tests/first-script.js",
+  "main": "tests/type-of-tests/first-script.js",
   "dependencies": {
     "@types/k6": "^1.6.0",
     "k6": "^0.0.0"
