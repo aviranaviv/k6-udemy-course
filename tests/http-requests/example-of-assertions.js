@@ -3,8 +3,6 @@ import {check, sleep} from "k6";
 import { expect } from "https://jslib.k6.io/k6-testing/0.3.0/index.js";
 
 export const options = {
-    vus: 10,
-    duration: '10s',
     thresholds: {
         http_req_duration: ['p(95)<200'],
         http_req_failed: ['rate<0.01'],
@@ -21,6 +19,5 @@ export default function () {
         'The body include some text': res.body.toString().includes('Note that this is a shared testing environment ')
     });
 
-    expect(res.status).toBe(200)
-    sleep(2);
+    expect(res.status, 'response status').toBe(200);
 }
