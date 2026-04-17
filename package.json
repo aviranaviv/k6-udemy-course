@@ -14,9 +14,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/aviranaviv/k6-udemy-course/issues"
   },
-  "homepage": "https://github.com/aviranaviv/k6-udemy-course#readme"
+  "homepage": "https://github.com/aviranaviv/k6-udemy-course#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0",
+    "k6-debug-api": "^1.7.1",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  }
 }
